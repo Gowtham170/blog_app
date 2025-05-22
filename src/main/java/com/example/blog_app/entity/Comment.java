@@ -25,7 +25,7 @@ import lombok.NoArgsConstructor;
 public class Comment {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     @Column(name="name",nullable=false)
     private String name;
     @Column(name="email",nullable=false)
